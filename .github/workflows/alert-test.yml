@@ -5,4 +5,4 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 90 && exit 1
+      - run: sleep 90 && exit 0
