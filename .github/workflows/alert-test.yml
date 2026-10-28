@@ -1,0 +1,8 @@
+# Temporary: exercises the LED matrix's CI alerts (running → failed → passed).
+name: alert-test
+on: pull_request
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 90 && exit 1
